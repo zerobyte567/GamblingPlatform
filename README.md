@@ -69,5 +69,8 @@ Winnings are instantly credited to your wallet, while losses fund the smart cont
 
 **Disclaimer:** Gambling involves risk. Only participate with funds you can afford to lose.  
 
+## License
+This project is open-source. See LICENSE for more information.
+
 
 **Ready to test your luck? Connect your wallet and play today!**
