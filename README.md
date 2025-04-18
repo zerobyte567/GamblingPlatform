@@ -43,15 +43,11 @@ Winnings are instantly credited to your wallet, while losses fund the smart cont
 2. Connect your wallet.  
 3. Follow the on-screen instructions to place your bet.  
 
----
-
 ## Game Mechanics  
 
 - **Win Conditions:** Correctly guess heads or tails based on the smart contract’s random outcome[1][4].  
 - **Loss Handling:** Lost tokens remain in the contract, creating a decentralized prize pool[1].  
 - **Provably Fair:** Results are generated on-chain and can be verified via transaction hashes[1][4].  
-
----
 
 ## Security & Transparency  
 
@@ -64,8 +60,6 @@ Winnings are instantly credited to your wallet, while losses fund the smart cont
 - **VDO:** Primary gambling token, also used for staking.  
 - **MAGIC:** Deflationary rewards token (2% burn per transaction).  
 - **POISON:** Token with a reflection mechanism  (1% redistribution to holders).  
-
----
 
 ## Community  
 
