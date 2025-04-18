@@ -39,7 +39,7 @@ Winnings are instantly credited to your wallet, while losses fund the smart cont
 - VDO, MAGIC, or POISON tokens in your wallet.  
 
 **Steps:**  
-1. Visit [gamble.voodootoken.com](https://gamble.voodootoken.com).  
+1. Visit gamble.voodootoken.com
 2. Connect your wallet.  
 3. Follow the on-screen instructions to place your bet.  
 
