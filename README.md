@@ -1,40 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Voodoo Token Gambling Platform  
 
-## Getting Started
+The gambling platform allows users to gamble with **Voodoo Token (VDO)**, **MAGIC Reward Token (MAGIC)**, or the **POISON Reward Token (POISON)** in a fully decentralized environment, combining entertainment with Web3 utility.  
 
-First, run the development server:
+## Overview  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Voodoo Token Gambling Platform is a decentralized application (DApp) offering a classic Coinflip game where users bet on heads or tails. Built on PulseChain, it ensures fast transactions, minimal fees ($0.02 per transaction), and no third-party interference. Players can win up to 300% returns using multiplier options, with outcomes determined by a smart contract.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features  
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Decentralized Coinflip:** Play directly against the smart contract with no intermediaries.
+- **Multi-Token Support:** Gamble with **VDO**, **MAGIC**, or **POISON** tokens.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Multiplier Options:**  
+  | Multiplier | Payout | Win Chance |  
+  |------------|--------|------------|  
+  | x2         | 100%   | 48%        |  
+  | x3         | 200%   | 25%        |  
+  | x4         | 300%   | 12.5%      |
+  
+- **Low Fees:** PulseChain’s gas fees average **$0.02 per transaction**.  
+- **Transparent Outcomes:** All results are verifiable on the PulseChain blockchain explorer.  
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## How It Works  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Connect Wallet:** Use MetaMask or a PulseChain-compatible wallet.  
+2. **Select Token:** Choose VDO, MAGIC, or POISON.  
+3. **Set Bet Amount:** Enter the amount you wish to gamble.  
+4. **Choose Multiplier:** Option for higher rewards with lower win change or vice versa.  
+5. **Heads/Tails:** Pick your side and confirm the transaction.  
+6. **Confirm & Play:** Approve the bet in your wallet and await the result. 
 
-## Learn More
+Winnings are instantly credited to your wallet, while losses fund the smart contract for future players.
 
-To learn more about Next.js, take a look at the following resources:
+## Getting Started  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Requirements:**  
+- PulseChain-enabled MetaMask wallet.  
+- VDO, MAGIC, or POISON tokens in your wallet.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Steps:**  
+1. Visit [gamble.voodootoken.com](https://gamble.voodootoken.com).  
+2. Connect your wallet.  
+3. Follow the on-screen instructions to place your bet.  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Game Mechanics  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Win Conditions:** Correctly guess heads or tails based on the smart contract’s random outcome[1][4].  
+- **Loss Handling:** Lost tokens remain in the contract, creating a decentralized prize pool[1].  
+- **Provably Fair:** Results are generated on-chain and can be verified via transaction hashes[1][4].  
+
+---
+
+## Security & Transparency  
+
+- **Audited Smart Contracts:** Smart contract is audited for extra security.  
+- **No Custody:** Tokens are never held by the platform; transactions are peer-to-contract.  
+- **Public Ledger:** All bets and outcomes are recorded on PulseChain’s blockchain.  
+
+## Token Utility  
+
+- **VDO:** Primary gambling token, also used for staking.  
+- **MAGIC:** Deflationary rewards token (2% burn per transaction).  
+- **POISON:** Token with a reflection mechanism  (1% redistribution to holders).  
+
+---
+
+## Community  
+
+- **Website:** [voodootoken.com](https://www.voodootoken.com)  
+- **Gambling DApp:** [gamble.voodootoken.com](gamble.voodootoken.com)
+
+
+**Disclaimer:** Gambling involves risk. Only participate with funds you can afford to lose.  
+
+
+**Ready to test your luck? Connect your wallet and play today!**
